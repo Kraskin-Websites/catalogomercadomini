@@ -76,25 +76,25 @@ footer {
 
 @media (min-width: 576px) {
     .catalog-container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 5fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
 @media (min-width: 768px) {
     .catalog-container {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
 @media (min-width: 992px) {
     .catalog-container {
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
 @media (min-width: 1200px) {
     .catalog-container {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
